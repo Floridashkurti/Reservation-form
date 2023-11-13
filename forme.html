@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Croissant+One&family=Dancing+Script&family=Fuggles&family=Oxygen:wght@300&family=Roboto:ital,wght@1,500&family=Skranji&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+    <link href="stilizim.css" rel="stylesheet">
+</head>
+<body>
+   
+  
+  <div class="box">
+    
+  <p><b><font size="6">Travel reservation form</font></b></p>
+  <br>
+  <fieldset>
+  <p><b><font size="4"></font>*denotes mandatory</font></b></p>
+    <form method="post"  action="">
+    <div>
+    <label>Full name*</label><br>
+    <input type="text" placeholder="FirstName LastName" required>
+    </div>
+    <div>
+    <label>Email address*</label><br>
+    <input type="email"  required>
+    </div>
+    <div>
+    <label for="paketa">Select Tour Package*</label><br>
+     <select name="paketa" id="paketa">
+         <option value="Goa">Goa</option>
+         <option value="Bali">Bali</option>
+         <option value="Maldive">Maldive</option>
+         <option value="Poros">Poros</option>
+     </select>
+</div>
+<div>
+    <label>Arrival date*</label><br>
+    <input type="date"  required>
+</div>
+<div>
+    <label>Number of persons*</label><br>
+    <input type="number"  required>
+</div>
+<div>
+    <label>What would you want to avail?*</label><br>
+    Boarding<input type="checkbox"><br>
+    Fooding<input type="checkbox"><br>
+    Sight seeing<input type="checkbox">
+</div>
+<div>
+    <label>Discount Coupon code:</label><br>
+    <input type="text">
+</div>
+<div>
+    <label>Terms and conditions*</label><br>
+    <input type="radio">I agree <input type="radio">I disagree
+</div>
+
+<input type="submit" value="Complete reservation" id="button">
+  </form>
+</fieldset>
+</div>
+
+</body>
+</html>

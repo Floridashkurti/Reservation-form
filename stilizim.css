@@ -1,0 +1,32 @@
+body {
+	
+	background-image: url(./galaxy.jpg);
+	
+	
+}
+.box {
+	width:40%;
+	margin: 0 auto;
+	padding: 2em;
+	background-color: #EFB106;
+    text-align: center;
+}
+
+p{ 
+font-family: 'Croissant One', cursive;
+}
+
+
+#button {
+	
+	background-color: #BB342F;
+	color: white;
+	border-radius: 10px;
+	border: none;
+}
+#button:hover {
+	background-color: #9A2B27;
+}
+fieldset {
+	border: 1px solid black;
+	border-radius: 10px;}
